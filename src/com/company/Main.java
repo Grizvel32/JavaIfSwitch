@@ -28,9 +28,17 @@ public class Main {
                 System.out.println("big");
             }
 
-        } else if (symbol >= '0' && symbol <= '9') {
+        } else if (symbol >= '0' && symbol <= '9')
+        {
             System.out.println("this is digit");
-        } else {
+            if(symbol%2==0){
+                System.out.println("even");
+            }
+            else {
+                System.out.println("odd");
+            }
+        }
+        else {
             System.out.println("this is unknown");
         }
 
